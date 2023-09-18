@@ -40,7 +40,7 @@ Sarcasm is a prevalent rhetorical device encountered in social media, news comme
 
 ### Python Version
 
-This project is implemented using Python 3.7.
+This project is implemented using Python 3.7
 
 ### Dependencies
 
