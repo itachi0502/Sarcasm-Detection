@@ -71,5 +71,6 @@ train:
 
 #### Dataset Source
 The dataset used for this project originates from the SemEval 2018 competition. The original dataset can be downloaded from [here](https://drive.google.com/file/d/1TKpxIm5Z6OSwxZdRR0ACOY6Edcygp0QQ/view?usp=drive_link)
-
+#### Contextual Data
+In this project, contextual information is added from Wikipedia, New York Times, and BBC. The processed dataset with context is available [here](https://drive.google.com/file/d/1M_pOwL7UW_8lkmC_9b0QQoUbEK0ttdUC/view?usp=drive_link)
 
