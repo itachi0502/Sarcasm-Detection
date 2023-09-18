@@ -1,0 +1,44 @@
+text_classification:
+  CSVClassificationCorpus:
+    data_folder: /home/wzl/project/kbner/kb/datasets/iron_context
+    train_file: train_data_processed.txt
+    dev_file: dev_data_processed.txt
+    test_file: test_data_processed.txt
+    column_name_map: {1: 'label', 2: 'text'}
+    delimiter: '	'
+    label_type: classification
+
+optimizer:
+  type: "AdamW"
+  weight_decay: 1.0e-2
+  lr_scheduler:
+    type: "OneCycleLR"
+    max_lr: 1.0e-5
+    epochs: 20
+    steps_per_epoch: 256
+
+embeddings:
+  TransformerWordEmbeddings-0:
+    transformer_model: "cardiffnlp/twitter-roberta-base-2021-124m-irony"
+    fine_tune: true
+
+
+model:
+  TextClassifier:
+    hidden_size: 512
+    dropout: 0.5
+
+train:
+  learning_rate: 3e-5
+  patience: 5
+  mini_batch_size: 4
+  max_epochs: 20
+  train_with_dev: False
+  embeddings_storage_mode: 'gpu'
+  warmup_steps: 500  # 添加warmup_steps
+  lr_scheduler:
+    type: OneCycleLR
+    max_lr: 1.0e-5
+    epochs: 20
+
+target_dir: "/home/wzl/project/bert4torch/output1"
