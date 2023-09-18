@@ -19,7 +19,7 @@ Sarcasm is a prevalent rhetorical device encountered in social media, news comme
 
 ### Key Features
 
-- **Sarcasm Detection**: Utilizes advanced machine learning algorithms to classify the sarcastic sentiment of the input text.
+- **Sarcasm Detection**: Utilizes advanced deep learning algorithms to classify the sarcastic sentiment of the input text.
 - **Contextual Understanding**: Through interaction with relevant external knowledge bases (like Wikipedia), the model can grasp the text's context more accurately.
 - **Multilevel Analysis**: Beyond basic text analysis, the model employs advanced features like multi-head attention mechanisms and bi-directional LSTM to capture complex relationships within the text.
 
