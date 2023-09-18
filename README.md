@@ -8,10 +8,14 @@
 - [Environment Requirements](#Environment-Requirements)
   - [Python Version](#Python-Version)
   - [Dependencies](#Dependencies)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [Quick Start](#quick-start)
+  - [Configuration File](#configuration-file)
+    - [How to Edit the Configuration File](#how-to-edit-the-configuration-file)
+  - [Data Preparation](#data-preparation)
+    - [Dataset Source](#dataset-source)
+    - [Contextual Data](#contextual-data)
+    - [Data Format](#data-format)
+  - [Training the Model](#training-the-model)
 
 ## Project Overview
 
