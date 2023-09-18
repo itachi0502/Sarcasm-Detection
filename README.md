@@ -31,9 +31,21 @@ Sarcasm is a prevalent rhetorical device encountered in social media, news comme
 - **AdamW**: Serves as the model's optimizer.
 - **OneCycleLR**: Utilized for learning rate scheduling.
 
-## Installation
+## Environment Requirements
 
-*Instructions on how to install the software.*
+### Python Version
+
+This project is implemented using Python 3.7.
+
+### Dependencies
+
+- PyTorch 1.13.1
+
+Additional package dependencies can be found in the `requirements.txt` file and installed using pip:
+
+```bash
+pip install -r requirements.txt
+
 
 ## Usage
 
