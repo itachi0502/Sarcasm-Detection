@@ -5,7 +5,9 @@
   - [Project Background](#project-background)
   - [Key Features](#key-features)
   - [Technology Stack](#technology-stack)
-- [Installation](#installation)
+- [Environment Requirements](#Environment Requirements)
+  - [Python Version](#Python Version)
+  - [Dependencies](#Dependencies)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -45,7 +47,7 @@ Additional package dependencies can be found in the `requirements.txt` file and 
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ## Usage
 
