@@ -53,19 +53,23 @@ Additional package dependencies can be found in the `requirements.txt` file and 
 pip install -r requirements.txt
 ```
 
-## Usage
+## Quick Start
 
-*How to use the project, examples, etc.*
+### Configuration File
 
-## Contributing
+The configuration for the model, optimizer, and other settings can be found in the YAML file (`iron.yaml`). Make sure to go through the configuration to understand the different parameters.
 
-*Information about how to contribute to the project.*
+#### How to Edit the Configuration File
 
-## License
+To edit the configuration file, simply open `iron.yaml` in a text editor and modify the values according to your needs. For example, to change the learning rate:
 
-*Legal information about the license.*
+```yaml
+train:
+  learning_rate: 2e-5  # Change this value
+```
+### Data Preparation
 
-## Acknowledgments
+#### Dataset Source
+The dataset used for this project originates from the SemEval 2018 competition. The original dataset can be downloaded from [here](https://drive.google.com/file/d/1TKpxIm5Z6OSwxZdRR0ACOY6Edcygp0QQ/view?usp=drive_link)
 
-*Credits, references, and other complementary information.*
 
